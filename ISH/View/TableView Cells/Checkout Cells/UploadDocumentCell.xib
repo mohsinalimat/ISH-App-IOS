@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UploadDocumentCell" rowHeight="-4" id="KGk-i7-Jjw" customClass="UploadDocumentCell" customModule="ISH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-zE-ZkX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hqf-0s-1dX">
+                                <rect key="frame" x="10" y="10" width="300" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Document (if any)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usi-Ca-f8F">
+                                        <rect key="frame" x="0.0" y="0.0" width="252" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TM5-uL-4JE">
+                                        <rect key="frame" x="260" y="0.0" width="40" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3f-sf-4ej">
+                                                <rect key="frame" x="5" y="0.0" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="1Pn-fI-0Es"/>
+                                                    <constraint firstAttribute="width" constant="30" id="qKB-aU-FOU"/>
+                                                </constraints>
+                                                <state key="normal" image="attachment-icon"/>
+                                                <connections>
+                                                    <action selector="AttachBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AGs-Re-1N5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="C3f-sf-4ej" firstAttribute="centerX" secondItem="TM5-uL-4JE" secondAttribute="centerX" id="7XN-Qe-sbc"/>
+                                            <constraint firstItem="C3f-sf-4ej" firstAttribute="centerY" secondItem="TM5-uL-4JE" secondAttribute="centerY" id="SV1-jk-XZw"/>
+                                            <constraint firstAttribute="width" constant="40" id="fvg-cX-LYi"/>
+                                            <constraint firstAttribute="height" constant="30" id="pCU-gX-g3F"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lsN-bN-p5w"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hqf-0s-1dX" firstAttribute="leading" secondItem="Lix-zE-ZkX" secondAttribute="leading" constant="10" id="4sm-1F-71j"/>
+                            <constraint firstAttribute="trailing" secondItem="hqf-0s-1dX" secondAttribute="trailing" constant="10" id="A04-My-JqI"/>
+                            <constraint firstAttribute="bottom" secondItem="hqf-0s-1dX" secondAttribute="bottom" constant="10" id="lhS-Sl-4fe"/>
+                            <constraint firstItem="hqf-0s-1dX" firstAttribute="top" secondItem="Lix-zE-ZkX" secondAttribute="top" constant="10" id="zcV-IY-eXN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lix-zE-ZkX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Jl5-eQ-t59"/>
+                    <constraint firstAttribute="trailing" secondItem="Lix-zE-ZkX" secondAttribute="trailing" id="Srj-Gi-GQ5"/>
+                    <constraint firstItem="Lix-zE-ZkX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ofA-QK-zL6"/>
+                    <constraint firstAttribute="bottom" secondItem="Lix-zE-ZkX" secondAttribute="bottom" id="zOh-4y-1lX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="AttachBtn" destination="C3f-sf-4ej" id="ZYb-bg-sT6"/>
+                <outlet property="LabelAttachName" destination="Usi-Ca-f8F" id="Ea4-0Q-FvX"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="99.400299850074973"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="attachment-icon" width="64" height="64"/>
+    </resources>
+</document>

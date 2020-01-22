@@ -1,0 +1,99 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Blueprints (0.11.3)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DatePickerDialog (2.0)
+  - DLRadioButton (1.4.12)
+  - DOFavoriteButton (0.0.4)
+  - DropDown (2.3.13)
+  - FSPagerView (0.8.2)
+  - IQKeyboardManagerSwift (6.4.0)
+  - PayUIndia-Custom-Browser (5.8.2)
+  - PayUmoney_CoreSDK (3.7):
+    - PayUIndia-Custom-Browser (~> 5.8.1)
+  - PayUmoney_PnP (2.5.0):
+    - PayUmoney_CoreSDK
+  - Realm (3.17.1):
+    - Realm/Headers (= 3.17.1)
+  - Realm/Headers (3.17.1)
+  - RealmSwift (3.17.1):
+    - Realm (= 3.17.1)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.5)
+  - Blueprints
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - DatePickerDialog
+  - DLRadioButton (~> 1.4)
+  - DOFavoriteButton
+  - DropDown
+  - FSPagerView
+  - IQKeyboardManagerSwift
+  - PayUmoney_PnP
+  - RealmSwift
+  - SDWebImage (~> 4.0)
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Blueprints
+    - DatePickerDialog
+    - DLRadioButton
+    - DOFavoriteButton
+    - DropDown
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - PayUIndia-Custom-Browser
+    - PayUmoney_CoreSDK
+    - PayUmoney_PnP
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Blueprints: 65eb7d69c2c60721a28fade0b7e10b0588e4e96d
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DOFavoriteButton: 866e15af173d2dd5233971a1f657a5f31d2491d5
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  PayUIndia-Custom-Browser: 39fa27d6a57806dcd2a38a9768bb110e60d8618a
+  PayUmoney_CoreSDK: 9c270b1ba54ae49ec57a2cbddc9fcd97e1d398e8
+  PayUmoney_PnP: d5ae7bf23e3e17c6fcd23e6763c2d78963eb318d
+  Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
+  RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 7310662d98acfabba5b35b6607d62536582564b5
+
+COCOAPODS: 1.7.3
